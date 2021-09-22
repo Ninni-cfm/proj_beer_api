@@ -1,14 +1,14 @@
 /****************************************************************************/
 .Home {
     height: 93vh;
-    padding: 7vmin;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .HomeLink {
-    height: calc(50vh - 10vmin);
+    height: calc(50vh - 3rem);
 }
 .HomeLink div {
     background: #ffca41;
@@ -17,12 +17,12 @@
     flex-direction: column-reverse;
 }
 .HomeLink h1 {
-    padding: 0 5vmin;
+    padding: 0 1rem;
     background: #ffca41;
 }
 .HomeLink p {
     font-size: 1.1em;
-    padding-top: 1vmin;
+    padding-top: 0.5rem;
     font-weight: 600;
 }
 .HomeLink a {
@@ -34,8 +34,8 @@
 }
 
 /****************************************************************************/
-.BeerList {
-}
+/* .BeerList {
+} */
 
 /****************************************************************************/
 .NavigateHome {
@@ -48,7 +48,7 @@
 
 /****************************************************************************/
 .BeerCard {
-    margin: 7vmin;
+    margin: 2rem;
     height: 33vh;
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -70,17 +70,17 @@
     color: #ffca41;
 }
 .BeerCard h5 {
-    padding: 3vmin 0;
+    padding: 0.5rem 0;
 }
 .BeerCard a {
     display: inline-block;
     background: #ffca41;
     color: #fff;
     text-decoration: none;
-    padding: 1vmin 5vmin;
-    border-radius: 5vmin;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
     font-weight: 600;
-    margin-top: 1vmin;
+    margin-top: 1rem;
 }
 .BeerCard a:visited {
     color: #fff;
@@ -88,18 +88,18 @@
 
 /****************************************************************************/
 .BeerDetails > button {
-    margin: 0 10vmin 10vmin;
+    margin: 0 3rem 2rem;
 
     background: #ffca41;
     border-radius: 50%;
     border: none;
-    padding: 0.2em;
+    padding: 0.5rem;
     display: block;
 }
 
 /****************************************************************************/
 .BeerDetailsInner {
-    padding: 10vmin 12vmin;
+    padding: 2rem 3rem;
     display: flex;
     flex-direction: column;
     justify-items: flex-start;

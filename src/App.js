@@ -10,29 +10,19 @@ import './App.css';
 import Home from "./pages/Home";
 import BeerList from "./components/BeerList";
 import BeerDetails from "./components/BeerDetails";
-import BeerRandom from "./components/BeerRandom";
 
 function App() {
     return (
         <Router>
             <div>
                 <Switch>
-                    <Route path="/" exact>
-                        <Home />
-                    </Route>
-                    <Route path="/beers" exact>
-                        <BeerList />
-                    </Route>
-                    <Route path="/beers/:beerId" >
-                        <BeerDetails />
-                    </Route>
-                    <Route path="/beers/random">
-                        <BeerRandom />
-                    </Route>
+                    <Route path="/" exact component={Home} />
+                    <Route path="/beers" exact component={BeerList} />
+                    <Route path="/beers/:beerId" component={BeerDetails} />
+                    <Route path="/beers/random" component={BeerDetails} />
                 </Switch>
             </div>
         </Router>
-
     );
 }
 

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
-        <div>
+        <div className="Home">
 
             <div className="HomeLink">
                 <Link to="/beers">
@@ -10,16 +10,16 @@ const Home = () => {
                         <h1>All Beers</h1>
                     </div>
                 </Link>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis.</p>
+                <p>A collection of the finest beers with detailed information about the brewing process and much more.</p>
             </div>
 
             <div className="HomeLink">
-                <Link to="/beersRandom">
+                <Link to="/beers/random">
                     <div style={{ background: 'url("./img/beer-random.png") top/cover no-repeat' }}>
                         <h1>Random Beer</h1>
                     </div>
                 </Link>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis.</p>
+                <p>If you can't decide on a beer type, let us choose a random one for you.</p>
             </div>
 
         </div>

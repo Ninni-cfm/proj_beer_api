@@ -1,19 +1,29 @@
 /****************************************************************************/
+.Home {
+    height: 93vh;
+    padding: 7vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .HomeLink {
     height: calc(50vh - 10vmin);
-    margin: 5vmin;
 }
 .HomeLink div {
     background: #ffca41;
-    height: 40vh;
+    height: 35vh;
     display: flex;
     flex-direction: column-reverse;
 }
 .HomeLink h1 {
+    padding: 0 5vmin;
     background: #ffca41;
 }
 .HomeLink p {
-    font-size: 0.8em;
+    font-size: 1.1em;
+    padding-top: 1vmin;
+    font-weight: 600;
 }
 .HomeLink a {
     text-decoration: none;
@@ -38,7 +48,7 @@
 
 /****************************************************************************/
 .BeerCard {
-    margin: 5vmin;
+    margin: 7vmin;
     height: 33vh;
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -53,6 +63,7 @@
     width: 75%;
 }
 .BeerCard h2 {
+    font-size: 2em;
     line-height: 1;
 }
 .BeerCard h4 {
@@ -76,3 +87,48 @@
 }
 
 /****************************************************************************/
+.BeerDetails > button {
+    margin: 0 10vmin 10vmin;
+
+    background: #ffca41;
+    border-radius: 50%;
+    border: none;
+    padding: 0.2em;
+    display: block;
+}
+
+/****************************************************************************/
+.BeerDetailsInner {
+    padding: 10vmin 12vmin;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+.BeerDetailsInner > img {
+    height: 55vh;
+    align-self: center;
+}
+
+.BeerDetailsInner > h1 {
+    font-size: 3em;
+}
+.BeerDetailsInner > h3 {
+    font-size: 1.2em;
+    font-weight: 900;
+    color: #ffca41;
+    padding-bottom: 2vh;
+}
+.BeerDetailsInner > .table {
+    align-self: stretch;
+    color: #33333380;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+.BeerDetailsInner > p {
+    padding-top: 1vh;
+    font-size: 0.9em;
+    font-weight: 700;
+}

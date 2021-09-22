@@ -1,3 +1,78 @@
-.App {
-    text-align: left;
+/****************************************************************************/
+.HomeLink {
+    height: calc(50vh - 10vmin);
+    margin: 5vmin;
 }
+.HomeLink div {
+    background: #ffca41;
+    height: 40vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.HomeLink h1 {
+    background: #ffca41;
+}
+.HomeLink p {
+    font-size: 0.8em;
+}
+.HomeLink a {
+    text-decoration: none;
+    color: #fff;
+}
+.HomeLink a:visited {
+    color: #fff;
+}
+
+/****************************************************************************/
+.BeerList {
+}
+
+/****************************************************************************/
+.NavigateHome {
+    height: 10vh;
+    display: flex;
+    background: #ffca41;
+    justify-content: center;
+    align-items: center;
+}
+
+/****************************************************************************/
+.BeerCard {
+    margin: 5vmin;
+    height: 33vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 2px solid #33333380;
+}
+.BeerCard img {
+    height: 25vh;
+}
+.BeerCard div {
+    width: 75%;
+}
+.BeerCard h2 {
+    line-height: 1;
+}
+.BeerCard h4 {
+    color: #ffca41;
+}
+.BeerCard h5 {
+    padding: 3vmin 0;
+}
+.BeerCard a {
+    display: inline-block;
+    background: #ffca41;
+    color: #fff;
+    text-decoration: none;
+    padding: 1vmin 5vmin;
+    border-radius: 5vmin;
+    font-weight: 600;
+    margin-top: 1vmin;
+}
+.BeerCard a:visited {
+    color: #fff;
+}
+
+/****************************************************************************/

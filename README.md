@@ -2,7 +2,7 @@
 
 _Source:_ https://github.com/Ninni-cfm/proj_beer_api
 
-_Demo:_
+_Demo:_ https://boozy-raccoon.netlify.app/
 
 ---
 
